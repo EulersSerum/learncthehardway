@@ -4,7 +4,7 @@ SOURCES=ex16.c
 EXEC=ex16
 
 all:
-  $(CC) $(CFLAGS) $(SOURCES) -o $(EXEC)
+		$(CC) $(CFLAGS) $(SOURCES) -o $(EXEC)
 
 clean:
-  $(EXEC)
+		$(EXEC)
